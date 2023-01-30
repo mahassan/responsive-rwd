@@ -112,3 +112,13 @@ a{
     text-decoration: none;
     margin-bottom:17px;
 }
+@media (min-width:500px) {
+        main{
+            display: flex;
+            margin-top:64px;
+            justify-content: center;
+        }
+        aside{
+            margin-left:60px;
+        }
+}
