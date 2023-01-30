@@ -75,12 +75,16 @@ h1{
 li.col {
     display: flex;
     min-height: 30px;
+    align-items: center;
 }
 section.info{
-    text-align: center;
+    /* text-align: center; */
     padding:20px;
     background-color: #fff;
     margin-bottom:20px;
+}
+section.info.features{
+    
 }
 .info h2 strong{
     font-weight: 600;
@@ -120,5 +124,24 @@ a{
         }
         aside{
             margin-left:60px;
+        }
+        .primary{
+            padding: 5px 32px;
+        }
+       .features{
+            background: none!important;
+        }
+        .features ul{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li.col{
+            display: flex;
+            min-height: 30px;
+            align-items: center;
+            width: 21%;
+            align-items: center;
+            text-align: left;
+            padding: 10px 8px;
         }
 }
